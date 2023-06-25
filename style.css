@@ -1,0 +1,276 @@
+*{
+    padding:0;
+    margin:0;
+}
+.startbg
+{
+    width: 100%;
+    height:40px;
+    background-color: rgba(252, 120, 5, 0.9);
+   
+}
+.heading1{
+   font-size:20px;
+    position:relative;
+    top:10px;
+    left:110px;
+    background-color: rgb(255, 242, 0);
+    display:inline;
+}
+.logo
+{
+ 
+}
+.smallogo1
+{
+    position:absolute;
+    top:80px;
+    left:330px;
+    width:90px;
+    height:90px;
+}
+.mainlogo
+{
+  width:100%;
+
+  position:relative; 
+}
+.nav
+{
+    background-color: rgb(26, 27, 26);
+   border-top:10px rgb(26, 27, 26) solid;
+   height:30px;
+  
+  
+   
+}
+ul
+{
+ display: flex;
+ justify-content: space-evenly;
+ position:relative;
+ top:4px;
+ color:white;
+ 
+}
+a
+{
+    color:brown;
+    text-decoration: none;
+}
+.heading2
+{
+font-size:40px;
+color:rgb(218, 100, 10);
+font-family:Dancing Script;
+text-align:center;
+
+}
+.para1
+{
+    font-size:20px;
+   margin-left:10%;
+   margin-right:10%;
+   line-height: 30px;
+   text-align: center;
+    
+    font-family:sans-serif;
+    color: rgba(220, 124, 15, 0.822);
+}
+.heading3
+{
+    font-size:40px;
+    color:rgb(246, 153, 53);
+    font-family:Dancing Script;
+    text-align:center;  
+}
+.section1
+{
+display:flex;
+justify-content:space-around;
+height:600px;
+width:90%
+}
+.img1
+{
+    width:300px;
+    height:300px;
+}
+
+.img1h1
+{
+    font-size:30px;
+    color:rgb(235, 108, 10);
+    font-family:Dancing Script;
+    text-align:center;
+    border-radius:30px;
+     
+   
+}
+.img1btn1
+{
+  border:1px solid rgb(241, 93, 7)  ;
+  padding:10px 25px;
+  font-size:15px;
+  color:rgb(219, 87, 10);
+  letter-spacing: 2px;
+  margin-left:25%;
+}
+
+.cakes
+{
+    
+    color:brown;
+    font-style:italic;
+    text-align:center;
+}
+.section2{
+   margin:auto;
+    height:570px;
+    width:85%;
+   
+    background-color: bisque;
+    
+    
+    
+}
+.section2 img{
+    height:150px;
+    width:150px;
+    padding: 20px;
+   
+
+}
+.section12
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    transition: all;
+}
+   
+
+.section22{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section12h1
+{
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgba(180, 164, 21, 0.844);
+   
+}
+
+.cakes-in img{
+    height:300px;
+    width:300px;
+    border-radius:20px;
+}
+
+
+.cakes-in
+{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.txt
+{
+    margin-left:100px;
+    font-style: italic;
+    font-size: 20px;
+    color:orange;
+}
+
+.btnn button{
+    height:50px;
+    width:200px;
+    color:orange;
+    border-radius:5px;
+    border-color:orange;
+
+}
+
+.btnn button:hover{
+    background-color: orange;
+    color:orangered;
+}
+
+.footer
+
+{
+   height:600px;
+   width:100%;
+   background-color: rgb(246, 220, 88);
+   position:relative;
+
+ 
+}
+.down-img1
+{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size:larger;
+    margin-top:100px;
+    color: rgb(251, 132, 21);
+   
+}
+.down-img1 a{
+    text-decoration: none;
+    color:white;
+    }
+.down-img1 a:hover{
+        text-decoration: underline;
+        color:yellow;
+    }
+.feet
+{
+        color:wheat;
+        margin-top:150px;
+        margin-left:500px;
+    }
+    .feet a{
+        color:white;
+    }
+    
+    
+    .fixx button{
+        height:60px;
+        width:250px;
+        border-radius: 40px;
+        font-size: large;
+    }
+    .del button{
+        background-color: orangered;
+        margin-left:0px;
+       border-color: orangered;
+        position: absolute;
+        margin-top:-20px;
+    }
+    .del button:hover{
+        transition: 1s;
+        background-color: green ;
+    }
+    .chat button{
+        background-color: orangered;
+        margin-left:1060px;
+        margin-top:-40px;
+        border-color: orangered;
+    }
+    .chat button:hover{
+        transition: 1s;
+        background-color: green ;
+
+    }
+    .at{
+        color:orangered;
+    }
+
